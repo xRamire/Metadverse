@@ -17,10 +17,13 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
         <p className='mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white'>{subtitle}</p>
       </div>
       
-      <div className='lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white cursor-pointer'>
+      <motion.div 
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        className='lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white cursor-pointer'
+      >
         <img src="arrow.svg" alt="arrow" className='w-[40%] h-[40%] object-contain' />
-
-      </div>
+      </motion.div>
     </div>
   </motion.div>
 );

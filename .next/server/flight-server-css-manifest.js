@@ -1,1 +1,0 @@
-self.__RSC_CSS_MANIFEST={"__entry_css__":{"/Users/desarrollo/Desktop/free/Metadverse/app/page":["/Users/desarrollo/Desktop/free/Metadverse/styles/globals.css"]},"/Users/desarrollo/Desktop/free/Metadverse/app/layout.js":["/Users/desarrollo/Desktop/free/Metadverse/styles/globals.css"]}
